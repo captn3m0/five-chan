@@ -1,0 +1,4 @@
+%form{ :method=>'POST', :action=> new_chain_path}
+  %textarea{:name=> "content"}
+  %input{:type=> "submit"}
+  %input{:name=>"authenticity_token", :value=>form_authenticity_token}
